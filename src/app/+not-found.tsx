@@ -7,7 +7,7 @@ export default function NotFoundScreen() {
       <Stack.Screen options={{ headerTitle: "Page Not Found" }} />
       <View style={styles.container}>
         <Text>Page Not Found</Text>
-        <Link href="/(tabs)/index" style={styles.button}>
+        <Link href="/(tabs)" style={styles.button}>
           Go to Home Screen
         </Link>
       </View>
